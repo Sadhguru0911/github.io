@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voice of CommunitE</title>
+    <meta name="description" content="Read the thoughts and experiences shared by our community members.">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="voice_of_communitE.html">Voice of CommunitE</a>
+            <a href="building_communitE.html">Building CommunitE</a>
+        </nav>
+        <div class="logo"><img src="logo.png" alt="Logo"></div>
+        
+    </header>
+    
+    <!-- Main Content Section -->
+    <main>
+        <section id="voice" class="voice">
+            <!-- Content related to the voice of members will be displayed here -->
+            <h2>Share Your Feedback</h2>
+            <form id="feedbackForm">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+                
+                <label for="community">Community Name:</label>
+                <input type="text" id="community" name="community" required><br><br>
+                
+                <label>Choose Your Mood:</label><br>
+                <input type="radio" id="happy" name="mood" value="Happy">
+                <label for="happy"><img src="happy_smiley.png" alt="Happy"></label>
+                
+                <input type="radio" id="neutral" name="mood" value="Neutral">
+                <label for="neutral"><img src="neutral_smiley.png" alt="Neutral"></label>
+                
+                <input type="radio" id="notHappy" name="mood" value="Not Happy">
+                <label for="notHappy"><img src="sad_smiley.png" alt="Not Happy"></label><br><br>
+                
+                <label for="feedback">Your Feedback:</label><br>
+                <textarea id="feedback" name="feedback" rows="4" cols="50" maxlength="1000" required></textarea><br><br>
+                
+                <button type="submit">Submit</button>
+            </form>
+            
+            <div id="feedbackList">
+                <!-- Feedback from community members will be displayed here -->
+            </div>
+        </section>
+    </main>
+    
+    <!-- Footer Section -->
+    <footer>
+        <div class="contact">
+            <!-- Contact Information -->
+        </div>
+    </footer>
+
+    <!-- Link the JavaScript file -->
+    <script src="feedback.js"></script>
+</body>
+</html>

@@ -1,0 +1,161 @@
+    /* Add your CSS styles here */
+
+    /* Global Styles */
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    /* Header Styles */
+    header {
+        background-color: white;
+        color: white;
+        padding: 20px 0;
+        text-align: center;
+    }
+
+    nav {
+        position: absolute; /* Position the navigation menu absolutely */
+        top: 0; /* Align the top of the navigation with the top of the header */
+        left: 50%; /* Move the navigation menu to the horizontal center */
+        transform: translateX(-50%); /* Adjust horizontally to center the navigation */        
+        background-color: rgb(255, 208, 0); /* Background color for navigation container */
+        padding: 5px; /* Padding for navigation container */
+        display: flex;
+        box-shadow: 0 0 35px rgba(0, 0, 0, 0.1);
+    }
+    
+    nav a {
+        color: black; /* Text color for navigation links */
+        padding: 10px 15px; /* Padding for navigation links */
+        margin: 0 10px; /* Margin between navigation links */
+        text-decoration: none; /* Remove underline from links */
+        font-size: 16px; /* Font size for navigation links */
+        font-weight: bold; /* Make the text bold */
+    }
+    
+    nav a:hover {
+        background-color: #1566e0; /* Background color for navigation links on hover */
+        color: black; /* Text color for navigation links on hover */
+    }
+
+    .logo {
+        margin-top: 35px; /* Adjust margin between logo and navigation */
+    }
+    /* Main Content Styles */
+    .catalog {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-top: 20px; /* Add padding to the top of the product section */
+    }
+
+    .catalog h3 {
+        color: #333; /* Change color of product title */
+    }
+    
+    .catalog p {
+        color: rgb(255, 102, 0); /* Change color of other product details */
+    }
+    
+    .product img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .product {
+        width: 250px;
+        margin: 10px;
+        padding: 15px;
+        border: 1px solid #ccc;
+        text-align: center;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+        /* Footer Styles */
+    footer {
+        background-color: #333;
+        color: #fff;
+        padding: 20px 0;
+        text-align: center;
+    }
+
+    /* Updated styles for contact */
+    .contact {
+        position: absolute;
+        top: 20px; /* Adjust top position */
+        right: 20px; /* Adjust right position */
+}
+    .contact a {
+        color:black;
+        text-decoration: none;
+        margin: 15px 10px;
+     
+    }
+
+    .contact a:hover {
+        text-decoration: underline;
+    }
+    
+    /* Filter Buttons Styles */
+.filter-buttons {
+    background-color: white; /* Background color for filter container */
+    padding: 15px; /* Padding for filter container */
+    margin: auto; /* Center the filter container horizontally */
+    display: flex;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    justify-content: center; /* Center the filter buttons horizontally */
+}
+
+.filter-buttons button {
+    background-color: rgb(255, 208, 0); /* Background color for filter buttons */
+    color: black; /* Text color for filter buttons */
+    padding: 10px 20px; /* Padding for filter buttons */
+    margin: 8px; /* Margin between filter buttons */
+    border: none; /* Remove border from filter buttons */
+    cursor: pointer;
+    font-size: 20px; /* Increase font size */
+    font-weight: bold; /* Make the text bold */
+}
+
+   
+    .filter-buttons:hover {
+        background-color: #1566e0; /* Darker background color on hover */
+    }
+
+    .order-form-container {
+        position: relative;
+        display: inline-block;
+    }
+    
+    .order-form-link {
+        display: inline-block;
+        background-color: #ff0000; /* Set the background color */
+        color: #fff; /* Set the text color */
+        padding: 10px 20px; /* Adjust padding as needed */
+        border-radius: 50%; /* Make it a circle */
+        animation: pulse 2s infinite; /* Add flashing animation */
+        margin-bottom: 5px; /* Add margin space between logo and contact*/
+    }
+    
+    @keyframes pulse {
+        0% { transform: scale(1); }
+        50% { transform: scale(1.1); }
+        100% { transform: scale(1); }
+    }
+    
+    /* Styles for Tagline */
+.tagline {
+    margin-top: 10px; /* Add margin space between logo and tagline */
+    margin-bottom: 5px; /* Add margin space between logo and tagline */
+    color: #093deb; /* Change text color */
+    font-size: 16px; /* Adjust font size */
+    line-height: 1.5; /* Adjust line height for better readability */
+}
