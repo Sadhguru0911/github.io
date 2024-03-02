@@ -69,6 +69,7 @@
     right: 20px; /* Adjust right position */
     text-align: right;
     margin-bottom: 10px; /* Add margin to separate WhatsApp from email */
+    text-decoration: none;
     colour: black;
 }
 
@@ -78,6 +79,7 @@
     right: 20px; /* Adjust right position */
     text-align: right;
     margin-top: 10px; /* Add margin to separate email from WhatsApp */
+    text-decoration: none;
     colour: black;
 }
 
