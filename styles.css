@@ -63,7 +63,7 @@
 
     /* Updated styles for contact */
 
-.whatsapp {
+a.whatsapp {
     position: absolute; 
     top:15px;
     right: 20px; /* Adjust right position */
