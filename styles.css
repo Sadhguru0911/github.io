@@ -79,7 +79,7 @@
     /* Filter Buttons Styles */
 .filter-buttons {
     background-color: white; /* Background color for filter container */
-    padding: 15px; /* Padding for filter container */
+    padding: 8px; /* Padding for filter container */
     margin: auto; /* Center the filter container horizontally */
     display: flex;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -89,11 +89,11 @@
 .filter-buttons button {
     background-color: rgb(255, 208, 0); /* Background color for filter buttons */
     color: black; /* Text color for filter buttons */
-    padding: 10px 20px; /* Padding for filter buttons */
+    padding: 5px 10px; /* Padding for filter buttons */
     margin: 8px; /* Margin between filter buttons */
     border: none; /* Remove border from filter buttons */
     cursor: pointer;
-    font-size: 20px; /* Increase font size */
+    font-size: 10px; /* Increase font size */
     font-weight: bold; /* Make the text bold */
 }
 
