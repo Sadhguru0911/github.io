@@ -69,13 +69,16 @@
     right: 20px; /* Adjust right position */
     text-align: right;
     margin-bottom: 10px; /* Add margin to separate WhatsApp from email */
+    colour: black;
 }
 
 .email {
     position: absolute;
+    top:20px
     right: 20px; /* Adjust right position */
     text-align: right;
     margin-top: 10px; /* Add margin to separate email from WhatsApp */
+    colour: black;
 }
 
     . whatsapp a:hover {
