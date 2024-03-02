@@ -1,148 +1,146 @@
-    /* Add your CSS styles here */
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
 
-    /* Global Styles */
-    body {
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-    }
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
 
-    .container {
-        max-width: 1200px;
-        margin: 0 auto;
-        padding: 20px;
-    }
+/* Header Styles */
+header {
+    background-color: white;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
 
-    /* Header Styles */
-    header {
-        background-color: white;
-        color: white;
-        padding: 20px 0;
-        text-align: center;
-    }
-    .logo {
-        margin-top: 40px; /* Adjust margin between logo and contact */
-    }
-    /* Main Content Styles */
-    .catalog {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        padding-top: 20px; /* Add padding to the top of the product section */
-    }
+.logo {
+    margin-top: 40px; /* Adjust margin between logo and contact */
+}
 
-    .catalog h3 {
-        color: #333; /* Change color of product title */
-    }
-    
-    .catalog p {
-        color: rgb(255, 102, 0); /* Change color of other product details */
-    }
-    
-    .product img {
-        max-width: 100%;
-        height: auto;
-    }
+/* Main Content Styles */
+.catalog {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 20px; /* Add padding to the top of the product section */
+}
 
-    .product {
-        width: 250px;
-        margin: 10px;
-        padding: 15px;
-        border: 1px solid #ccc;
-        text-align: center;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    }
+.catalog h3 {
+    color: #333; /* Change color of product title */
+}
 
-        /* Footer Styles */
-    footer {
-        background-color: #333;
-        color: #fff;
-        padding: 20px 0;
-        text-align: center;
-    }
+.catalog p {
+    color: rgb(255, 102, 0); /* Change color of other product details */
+}
 
-    /* Updated styles for contact */
+.product img {
+    max-width: 100%;
+    height: auto;
+}
 
-    a.whatsapp {
-   	position: absolute; 
-    	top:15px;
-   	right: 20px; /* Adjust right position */
-    	text-align: right;
-    	text-decoration: none;
-    	color: black !important;
+.product {
+    width: 250px;
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
 
-	}
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
 
-     a.email {
-    	position: absolute;
-    	top:40px;
-   	right: 20px; /* Adjust right position */
-    	text-align: right;
-    	text-decoration: none;
-   	color: black !important;
-	}
-   
-    /* Filter Buttons Styles */
-	.filter-buttons {
-   		background-color: white; /* Background color for filter container */
-   	 	padding: 8px; /* Padding for filter container */
-  		margin: auto; /* Center the filter container horizontally */
-     		display: flex;
-  	 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-     		justify-content: center; /* Center the filter buttons horizontally */
-     		flex-wrap: wrap; /* Allow buttons to wrap to the next line on smaller screens */
+/* Updated styles for contact */
+a.whatsapp,
+a.email {
+    position: absolute;
+    text-align: right;
+    text-decoration: none;
+    color: black !important;
+}
+
+a.whatsapp {
+    top: 15px;
+    right: 20px; /* Adjust right position */
+}
+
+a.email {
+    top: 40px;
+    right: 20px; /* Adjust right position */
+}
+
+/* Filter Buttons Styles */
+.filter-buttons {
+    background-color: white;
+    padding: 8px;
+    margin: auto;
+    display: flex;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .filter-buttons button {
-    background-color: rgb(255, 208, 0); /* Background color for filter buttons */
-    color: black; /* Text color for filter buttons */
-    padding: 5px 10px; /* Padding for filter buttons */
-    margin: 8px; /* Margin between filter buttons */
-    border: none; /* Remove border from filter buttons */
+    background-color: rgb(255, 208, 0);
+    color: black;
+    padding: 5px 10px;
+    margin: 8px;
+    border: none;
     cursor: pointer;
-    font-size: 10px; /* Increase font size */
-    font-weight: bold; /* Make the text bold */
+    font-size: 10px;
+    font-weight: bold;
 }
 
 /* Adjust styles for smaller screens */
 @media screen and (max-width: 768px) {
     .filter-buttons button {
-        font-size: 8px; /* Decrease font size for smaller screens */
-        padding: 4px 8px; /* Decrease padding for smaller screens */
-        margin: 4px; /* Decrease margin for smaller screens */
+        font-size: 8px;
+        padding: 4px 8px;
+        margin: 4px;
     }
 }
-   
-    .filter-buttons:hover {
-        background-color: #1566e0; /* Darker background color on hover */
-    }
 
-    .order-form-container {
-        position: relative;
-        display: inline-block;
-    }
-    
-    .order-form-link {
-        display: inline-block;
-        background-color: #ff0000; /* Set the background color */
-        color: #fff; /* Set the text color */
-        padding: 10px 20px; /* Adjust padding as needed */
-        border-radius: 50%; /* Make it a circle */
-        animation: pulse 2s infinite; /* Add flashing animation */
-        margin-bottom: 5px; /* Add margin space between logo and contact*/
-    }
-    
-    @keyframes pulse {
-        0% { transform: scale(1); }
-        50% { transform: scale(1.1); }
-        100% { transform: scale(1); }
-    }
-    
-    /* Styles for Tagline */
+.filter-buttons:hover {
+    background-color: #1566e0;
+}
+
+.order-form-container {
+    position: relative;
+    display: inline-block;
+}
+
+.order-form-link {
+    display: inline-block;
+    background-color: #ff0000;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 50%;
+    animation: pulse 2s infinite;
+    margin-bottom: 5px;
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+}
+
+/* Styles for Tagline */
 .tagline {
-    margin-top: 10px; /* Add margin space between logo and tagline */
-    margin-bottom: 5px; /* Add margin space between logo and tagline */
-    color: #093deb; /* Change text color */
-    font-size: 16px; /* Adjust font size */
-    line-height: 1.5; /* Adjust line height for better readability */
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: #093deb;
+    font-size: 16px;
+    line-height: 1.5;
 }
