@@ -83,11 +83,11 @@
     colour: black;
 }
 
-    . whatsapp a:hover {
+    .whatsapp a:hover {
         text-decoration: underline;
     }
 
-    . email a:hover {
+    .email a:hover {
         text-decoration: underline;
     }
     
