@@ -65,20 +65,20 @@
 
 	a.whatsapp {
    		position: absolute; 
-    	top:15px;
+    		top:15px;
    		right: 20px; /* Adjust right position */
-    	text-align: right;
-    	text-decoration: none;
-    	color: black !important;
+    		text-align: right;
+    		text-decoration: none;
+    		color: black !important;
 
 	}
 
 	a.email {
-    	position: absolute;
-    	top:40px;
+    		position: absolute;
+    		top:40px;
    		right: 20px; /* Adjust right position */
-    	text-align: right;
-    	text-decoration: none;
+    		text-align: right;
+    		text-decoration: none;
    		color: black !important;
 	}
    
