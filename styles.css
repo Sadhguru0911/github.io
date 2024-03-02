@@ -20,7 +20,9 @@
         padding: 20px 0;
         text-align: center;
     }
-
+    .logo {
+        margin-top: 20px; /* Adjust margin between logo and contact */
+    }
     /* Main Content Styles */
     .catalog {
         display: flex;
