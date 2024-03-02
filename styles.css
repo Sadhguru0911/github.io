@@ -62,24 +62,27 @@
     }
 
     /* Updated styles for contact */
-.contact {
-    text-align: right; /* Center align the content */
-}
 
 .whatsapp {
     position: absolute; 
     top:20px;
     right: 20px; /* Adjust right position */
+    text-align: right;
     margin-bottom: 10px; /* Add margin to separate WhatsApp from email */
 }
 
 .email {
     position: absolute;
     right: 20px; /* Adjust right position */
+    text-align: right;
     margin-top: 10px; /* Add margin to separate email from WhatsApp */
 }
 
-    .contact a:hover {
+    . whatsapp a:hover {
+        text-decoration: underline;
+    }
+
+    . email a:hover {
         text-decoration: underline;
     }
     
