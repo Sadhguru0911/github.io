@@ -70,7 +70,7 @@
     text-align: right;
     margin-bottom: 10px; /* Add margin to separate WhatsApp from email */
     text-decoration: none;
-    colour: black;
+
 }
 
 .email {
@@ -80,8 +80,8 @@
     text-align: right;
     margin-top: 10px; /* Add margin to separate email from WhatsApp */
     text-decoration: none;
-    colour: black;
 }
+
 
     .whatsapp a:hover {
         text-decoration: underline;
