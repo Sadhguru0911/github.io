@@ -84,6 +84,7 @@
     display: flex;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     justify-content: center; /* Center the filter buttons horizontally */
+    flex-wrap: wrap; /* Allow buttons to wrap to the next line on smaller screens */
 }
 
 .filter-buttons button {
@@ -97,6 +98,14 @@
     font-weight: bold; /* Make the text bold */
 }
 
+/* Adjust styles for smaller screens */
+@media screen and (max-width: 768px) {
+    .filter-buttons button {
+        font-size: 8px; /* Decrease font size for smaller screens */
+        padding: 4px 8px; /* Decrease padding for smaller screens */
+        margin: 4px; /* Decrease margin for smaller screens */
+    }
+}
    
     .filter-buttons:hover {
         background-color: #1566e0; /* Darker background color on hover */
