@@ -63,34 +63,34 @@
 
     /* Updated styles for contact */
 
-a.whatsapp {
-    position: absolute; 
-    top:15px;
-    right: 20px; /* Adjust right position */
-    text-align: right;
-    text-decoration: none;
-    color: black !important;
+	a.whatsapp {
+   		position: absolute; 
+    	top:15px;
+   		right: 20px; /* Adjust right position */
+    	text-align: right;
+    	text-decoration: none;
+    	color: black !important;
 
-}
+	}
 
-.email {
-    position: absolute;
-    top:40px;
-    right: 20px; /* Adjust right position */
-    text-align: right;
-    text-decoration: none;
-    color: black;
-}
+	a.email {
+    	position: absolute;
+    	top:40px;
+   		right: 20px; /* Adjust right position */
+    	text-align: right;
+    	text-decoration: none;
+   		color: black !important;
+	}
    
     /* Filter Buttons Styles */
-.filter-buttons {
-    background-color: white; /* Background color for filter container */
-    padding: 8px; /* Padding for filter container */
-    margin: auto; /* Center the filter container horizontally */
-    display: flex;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    justify-content: center; /* Center the filter buttons horizontally */
-    flex-wrap: wrap; /* Allow buttons to wrap to the next line on smaller screens */
+	.filter-buttons {
+   		background-color: white; /* Background color for filter container */
+   	 	padding: 8px; /* Padding for filter container */
+  		margin: auto; /* Center the filter container horizontally */
+     	display: flex;
+  	 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+     	justify-content: center; /* Center the filter buttons horizontally */
+     	flex-wrap: wrap; /* Allow buttons to wrap to the next line on smaller screens */
 }
 
 .filter-buttons button {
