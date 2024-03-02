@@ -79,15 +79,7 @@
     text-align: right;
     text-decoration: none;
 }
-
-.whatsapp a:hover {
-    text-decoration: underline;
-}
-
-.email a:hover {
-    text-decoration: underline;
-}
-    
+   
     /* Filter Buttons Styles */
 .filter-buttons {
     background-color: white; /* Background color for filter container */
