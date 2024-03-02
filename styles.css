@@ -68,11 +68,14 @@
 
 .whatsapp {
     position: absolute; 
+    right: 20px; /* Adjust right position */
     margin-bottom: 10px; /* Add margin to separate WhatsApp from email */
 }
 
 .email {
     position: absolute;
+    top: 20px; /* Adjust top position */
+    right: 20px; /* Adjust right position */
     margin-top: 10px; /* Add margin to separate email from WhatsApp */
 }
 
