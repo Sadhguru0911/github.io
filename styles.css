@@ -75,7 +75,7 @@
 
 .email {
     position: absolute;
-    top:50px;
+    top:40px;
     right: 20px; /* Adjust right position */
     text-align: right;
     margin-top: 10px; /* Add margin to separate email from WhatsApp */
