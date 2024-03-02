@@ -67,10 +67,12 @@
 }
 
 .whatsapp {
+    position: absolute; 
     margin-bottom: 10px; /* Add margin to separate WhatsApp from email */
 }
 
 .email {
+    position: absolute;
     margin-top: 10px; /* Add margin to separate email from WhatsApp */
 }
 
