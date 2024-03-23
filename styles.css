@@ -17,7 +17,7 @@
     header {
         background-color: white;
         color: white;
-        padding: 50px 0;
+        padding: 40px 0;
         text-align: center;
     }
 
@@ -62,10 +62,10 @@
    /* Updated styles for contact */
 .contact {
     position: absolute;
-    font-size: 7px; /* Adjust font size */
-    top: 170px; /* Adjust top position */
+    top: 115px; /* Adjust top position */
     left: 50%; /* Adjust left position */
     transform: translateX(-50%);
+    font-size: 12px; /* Adjust font size */
 }
 
 .contact a {
@@ -127,9 +127,9 @@
     
  /* Styles for Tagline 1 */
 .tagline1 {
-    position: fixed;
+    position: absolute;
     top: 10px; /* Adjust position from the top */
-    left: 30%;
+    left: 40%;
     color: darkorange; /* Change text color */
     font-size: 12px; /* Adjust font size */
     line-height: 1.5; /* Adjust line height for better readability */
@@ -140,7 +140,7 @@
 /* Styles for Tagline 2 */
 .tagline2 {
     position: fixed;
-    left: 30%; /* Adjust position from the top */
+    left: 38%; /* Adjust position from the top */
     color: darkblue; /* Change text color */
     font-size: 12px; /* Adjust font size */
     line-height: 1.5; /* Adjust line height for better readability */
@@ -152,4 +152,9 @@
     0% { transform: scale(1); }
     50% { transform: scale(1.1); }
     100% { transform: scale(1); }
+}
+
+
+.logo img {
+    width: 12%; /* Reduce the width of the image to 12% */
 }
