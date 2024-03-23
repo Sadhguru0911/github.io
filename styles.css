@@ -15,6 +15,7 @@
 
     /* Header Styles */
     header {
+        position: relative; /* Ensure positioning context for absolute positioning of taglines */
         background-color: white;
         color: white;
         padding: 40px 0;
@@ -131,7 +132,17 @@
         50% { transform: scale(1.1); }
         100% { transform: scale(1); }
     }
-    
+
+.logo {
+    position: relative; /* Ensure positioning context for absolute positioning of taglines */
+}
+
+.logo img {
+    width: 12%; /* Reduce the width of the image to 12% */
+    display: block; /* Ensure the logo image behaves as a block element */
+    margin: 0 auto; /* Center the logo horizontally */
+}
+
 /* Styles for Tagline 1 */
 .tagline1 {
     position: absolute;
@@ -156,9 +167,4 @@
     line-height: 1.5; /* Adjust line height for better readability */
     border-radius: 50%; /* Make it a circle */
     animation: pulse 2s infinite; /* Add flashing animation */
-}
-
-
-.logo img {
-    width: 12%; /* Reduce the width of the image to 12% */
 }
