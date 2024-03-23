@@ -17,38 +17,8 @@
     header {
         background-color: white;
         color: white;
-        padding: 30px 0;
+        padding: 50px 0;
         text-align: center;
-    }
-
-    /* Main Content Styles */
-    .catalog {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        padding-top: 20px; /* Add padding to the top of the product section */
-    }
-
-    .catalog h3 {
-        color: #333; /* Change color of product title */
-    }
-    
-    .catalog p {
-        color: rgb(255, 102, 0); /* Change color of other product details */
-    }
-    
-    .product img {
-        max-width: 100%;
-        height: auto;
-    }
-
-    .product {
-        width: 250px;
-        margin: 10px;
-        padding: 15px;
-        border: 1px solid #ccc;
-        text-align: center;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     }
 
         /* Footer Styles */
@@ -130,7 +100,7 @@
     top: 30px; /* Adjust position from the top */
     left: 75px; /* Adjust position from the left */
     color: darkorange; /* Change text color */
-    font-size: 21px; /* Adjust font size */
+    font-size: 12px; /* Adjust font size */
     line-height: 1.5; /* Adjust line height for better readability */
     border-radius: 50%; /* Make it a circle */
     animation: pulse 2s infinite; /* Add flashing animation */
@@ -142,7 +112,7 @@
     top: 30px; /* Adjust position from the top */
     right: 75px; /* Adjust position from the right */
     color: darkblue; /* Change text color */
-    font-size: 18px; /* Adjust font size */
+    font-size: 12px; /* Adjust font size */
     line-height: 1.5; /* Adjust line height for better readability */
     border-radius: 50%; /* Make it a circle */
     animation: pulse 2s infinite; /* Add flashing animation */
