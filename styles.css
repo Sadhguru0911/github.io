@@ -21,6 +21,36 @@
         text-align: center;
     }
 
+    /* Main Content Styles */
+    .catalog {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-top: 20px; /* Add padding to the top of the product section */
+    }
+
+    .catalog h3 {
+        color: #333; /* Change color of product title */
+    }
+    
+    .catalog p {
+        color: rgb(255, 102, 0); /* Change color of other product details */
+    }
+    
+    .product img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .product {
+        width: 250px;
+        margin: 10px;
+        padding: 15px;
+        border: 1px solid #ccc;
+        text-align: center;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
         /* Footer Styles */
     footer {
         background-color: #333;
@@ -32,7 +62,7 @@
    /* Updated styles for contact */
 .contact {
     position: absolute;
-    top: 115px; /* Adjust top position */
+    top: 170px; /* Adjust top position */
     left: 50%; /* Adjust left position */
     transform: translateX(-50%);
 }
@@ -40,7 +70,7 @@
 .contact a {
     color: Black;
     text-decoration: none;
-    margin: 15px 10px;
+    margin: 30px 15px;
 }
 
 .contact a:hover {
@@ -97,8 +127,8 @@
  /* Styles for Tagline 1 */
 .tagline1 {
     position: fixed;
-    top: 30px; /* Adjust position from the top */
-    left: 75px; /* Adjust position from the left */
+    top: 10px; /* Adjust position from the top */
+    left: 40%;
     color: darkorange; /* Change text color */
     font-size: 12px; /* Adjust font size */
     line-height: 1.5; /* Adjust line height for better readability */
@@ -109,8 +139,7 @@
 /* Styles for Tagline 2 */
 .tagline2 {
     position: fixed;
-    top: 30px; /* Adjust position from the top */
-    right: 75px; /* Adjust position from the right */
+    left: 38%; /* Adjust position from the top */
     color: darkblue; /* Change text color */
     font-size: 12px; /* Adjust font size */
     line-height: 1.5; /* Adjust line height for better readability */
@@ -123,4 +152,3 @@
     50% { transform: scale(1.1); }
     100% { transform: scale(1); }
 }
-
