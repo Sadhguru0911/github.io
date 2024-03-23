@@ -134,6 +134,7 @@
     }
 
 .logo {
+    display: inline-block; /* Ensure the logo and taglines are inline */
     position: relative; /* Ensure positioning context for absolute positioning of taglines */
 }
 
