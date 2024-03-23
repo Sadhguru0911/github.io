@@ -132,11 +132,12 @@
         100% { transform: scale(1); }
     }
     
- /* Styles for Tagline 1 */
+/* Styles for Tagline 1 */
 .tagline1 {
     position: absolute;
-    top: 10px; /* Adjust position from the top */
+    top: 50%; /* Adjust position from the top */
     left: 50%;
+    transform: translate(-50%, -50%); /* Center the tagline horizontally and vertically */
     color: darkorange; /* Change text color */
     font-size: 12px; /* Adjust font size */
     line-height: 1.5; /* Adjust line height for better readability */
@@ -146,19 +147,15 @@
 
 /* Styles for Tagline 2 */
 .tagline2 {
-    position: fixed;
-    left: 50%; /* Adjust position from the top */
+    position: absolute;
+    bottom: 0; /* Align at the bottom */
+    left: 50%; /* Adjust position from the left */
+    transform: translateX(-50%); /* Center the tagline horizontally */
     color: darkblue; /* Change text color */
     font-size: 12px; /* Adjust font size */
     line-height: 1.5; /* Adjust line height for better readability */
     border-radius: 50%; /* Make it a circle */
     animation: pulse 2s infinite; /* Add flashing animation */
-}
-
-@keyframes pulse {
-    0% { transform: scale(1); }
-    50% { transform: scale(1.1); }
-    100% { transform: scale(1); }
 }
 
 
