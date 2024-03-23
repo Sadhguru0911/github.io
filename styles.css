@@ -32,6 +32,13 @@
     .catalog h3 {
         color: #333; /* Change color of product title */
     }
+
+/* For phone layout */
+@media only screen and (max-width: 767px) {
+    .logo img {
+        width: 80%; /* Reduce the width of the image to 80% for phones */
+    }
+}
     
     .catalog p {
         color: rgb(255, 102, 0); /* Change color of other product details */
