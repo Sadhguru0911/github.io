@@ -146,8 +146,8 @@
 /* Styles for Tagline 1 */
 .tagline1 {
     position: absolute;
-    top: 50%; /* Align the tagline vertically in the middle */
-    left: 50%; /* Align the tagline horizontally in the middle */
+    top: 10%; /* Align the tagline vertically in the middle */
+    left: 40%; /* Align the tagline horizontally in the middle */
     transform: translate(-50%, -50%); /* Center the tagline both vertically and horizontally */
     color: darkorange; /* Change text color */
     font-size: 12px; /* Adjust font size */
@@ -157,8 +157,8 @@
 /* Styles for Tagline 2 */
 .tagline2 {
     position: absolute;
-    bottom: 20px; /* Align the tagline 20px from the bottom */
-    left: 50%; /* Align the tagline horizontally in the middle */
+    bottom: 70px; /* Align the tagline 20px from the bottom */
+    left: 40%; /* Align the tagline horizontally in the middle */
     transform: translateX(-50%); /* Center the tagline horizontally */
     color: darkblue; /* Change text color */
     font-size: 12px; /* Adjust font size */
