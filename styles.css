@@ -68,21 +68,43 @@
     }
 
    /* Updated styles for contact */
-.contact {
+.tel {
     position: absolute;
-    top: 115px; /* Adjust top position */
+    top: 110px; /* Adjust top position */
     left: 50%; /* Adjust left position */
     transform: translateX(-50%);
-    font-size: 15px; /* Adjust font size */
+    font-size: 18px; /* Adjust font size */
 }
 
-.contact a {
+.tel a {
     color: Black;
     text-decoration: none;
-    margin: 30px 15px;
+    margin-top: 15px;
+    margin-bottom:15px
 }
 
-.contact a:hover {
+.tel a:hover {
+    text-decoration: underline;
+}
+
+
+   /* Updated styles for contact */
+.email {
+    position: absolute;
+    top: 125px; /* Adjust top position */
+    left: 50%; /* Adjust left position */
+    transform: translateX(-50%);
+    font-size: 18px; /* Adjust font size */
+}
+
+.email a {
+    color: Black;
+    text-decoration: none;
+    margin-top: 15px;
+    margin-bottom:15px;
+}
+
+.email a:hover {
     text-decoration: underline;
 }
     
