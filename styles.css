@@ -134,6 +134,7 @@ footer {
 /* Logo Styles */
 .logo {
     position: relative; /* Ensure positioning context for absolute positioning of taglines */
+    margin-top:10px
 }
 
 .logo img {
@@ -154,7 +155,7 @@ footer {
     top: 10px; /* Align the tagline vertically at the top */
     left: 10px; /* Align the tagline horizontally at the left */
     color: darkorange; /* Change text color */
-    text-align: right; /* Left-align the text */
+    text-align: left; /* Left-align the text */
 }
 
 .tagline2 {
