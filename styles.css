@@ -79,8 +79,8 @@
 .tel a {
     color: Black;
     text-decoration: none;
-    margin-top: 15px;
-    margin-bottom:15px
+    margin-top: 25px;
+    margin-bottom:20px
 }
 
 .tel a:hover {
@@ -100,8 +100,8 @@
 .email a {
     color: Black;
     text-decoration: none;
-    margin-top: 15px;
-    margin-bottom:15px;
+    margin-top: 25px;
+    margin-bottom:20px;
 }
 
 .email a:hover {
