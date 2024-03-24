@@ -8,9 +8,9 @@
     }
 
     .container {
-        max-width: 1200px;
+        max-width: 1400px;
         margin: 0 auto;
-        padding: 20px;
+        padding: 30px;
     }
 
     /* Header Styles */
@@ -18,7 +18,7 @@
         position: relative; /* Ensure positioning context for absolute positioning of taglines */
         background-color: white;
         color: white;
-        padding: 40px 0;
+        padding: 50px 0;
         text-align: center;
     }
 
@@ -79,7 +79,7 @@
 .tel a {
     color: Black;
     text-decoration: none;
-    margin-top: 25px;
+    margin-top: 30px;
     margin-bottom:20px
 }
 
@@ -100,8 +100,8 @@
 .email a {
     color: Black;
     text-decoration: none;
-    margin-top: 25px;
-    margin-bottom:20px;
+    margin-top: 30px;
+    margin-bottom:10px;
 }
 
 .email a:hover {
