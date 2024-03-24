@@ -70,7 +70,7 @@
    /* Updated styles for contact */
 .tel {
     position: absolute;
-    top: 110px; /* Adjust top position */
+    top: 125px; /* Adjust top position */
     left: 50%; /* Adjust left position */
     transform: translateX(-50%);
     font-size: 18px; /* Adjust font size */
@@ -91,7 +91,7 @@
    /* Updated styles for contact */
 .email {
     position: absolute;
-    top: 125px; /* Adjust top position */
+    top: 135px; /* Adjust top position */
     left: 50%; /* Adjust left position */
     transform: translateX(-50%);
     font-size: 18px; /* Adjust font size */
