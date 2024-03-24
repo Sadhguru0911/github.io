@@ -78,6 +78,7 @@ footer {
     color: black;
     text-decoration: none;
     margin-top: 20px; /* Adjust top margin */
+    margin-bottom:10px;
     left: 50%; /* Center horizontally */
     transform: translateX(-50%);
 }
@@ -153,14 +154,14 @@ footer {
     top: 10px; /* Align the tagline vertically at the top */
     left: 10px; /* Align the tagline horizontally at the left */
     color: darkorange; /* Change text color */
-    text-align: left; /* Left-align the text */
+    text-align: right; /* Left-align the text */
 }
 
 .tagline2 {
     top: 10px; /* Align the tagline vertically at the top */
     right: 10px; /* Align the tagline horizontally at the right */
     color: darkblue; /* Change text color */
-    text-align: right; /* Left-align the text */
+    text-align: left; /* Left-align the text */
 }
 
 /* Pulse Animation */
