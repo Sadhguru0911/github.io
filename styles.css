@@ -144,7 +144,6 @@ footer {
 /* Tagline Styles */
 .tagline1, .tagline2 {
     position: absolute;
-    color: darkorange; /* Change text color */
     font-size: 18px; /* Adjust font size */
     line-height: 1.5; /* Adjust line height for better readability */
     animation: pulse 2s infinite; /* Add flashing animation */
@@ -153,11 +152,15 @@ footer {
 .tagline1 {
     top: 10px; /* Align the tagline vertically at the top */
     left: 10px; /* Align the tagline horizontally at the left */
+    color: darkorange; /* Change text color */
+    text-align: left; /* Left-align the text */
 }
 
 .tagline2 {
     top: 10px; /* Align the tagline vertically at the top */
     right: 10px; /* Align the tagline horizontally at the right */
+    color: darkblue; /* Change text color */
+    text-align: right; /* Left-align the text */
 }
 
 /* Pulse Animation */
@@ -173,7 +176,7 @@ footer {
         width: 70%; /* Reduce the width of the image to 80% for phones */
     }
       .tagline1, .tagline2 {
-        font-size: 12px; /* Adjust the font size of taglines for phones */
+        font-size: 10px; /* Adjust the font size of taglines for phones */
     }
 
      .tel, .email {
