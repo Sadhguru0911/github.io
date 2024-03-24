@@ -61,7 +61,7 @@ footer {
 }
 
 /* Contact Styles */
-.tel, .email {
+.tel{
     position: absolute;
     font-size: 18px; /* Adjust font size */
     color: black;
@@ -71,6 +71,16 @@ footer {
     transform: translateX(-50%);
 }
 
+/* Contact Styles */
+.email {
+    position: absolute;
+    font-size: 18px; /* Adjust font size */
+    color: black;
+    text-decoration: none;
+    margin-top: 20px; /* Adjust top margin */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%);
+}
 .tel a, .email a {
     color: black;
     text-decoration: none;
