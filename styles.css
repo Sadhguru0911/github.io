@@ -1,114 +1,86 @@
-    /* Add your CSS styles here */
+/* Add your CSS styles here */
 
-    /* Global Styles */
-    body {
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-    }
-
-    .container {
-        max-width: 1400px;
-        margin: 0 auto;
-        padding: 30px;
-    }
-
-    /* Header Styles */
-    header {
-        position: relative; /* Ensure positioning context for absolute positioning of taglines */
-        background-color: white;
-        color: white;
-        padding: 50px 0;
-        text-align: center;
-    }
-
-    /* Main Content Styles */
-    .catalog {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        padding-top: 20px; /* Add padding to the top of the product section */
-    }
-
-    .catalog h3 {
-        color: #333; /* Change color of product title */
-    }
-
-/* For phone layout */
-@media only screen and (max-width: 767px) {
-    .logo img {
-        width: 75%; /* Reduce the width of the image to 80% for phones */
-    }
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
-    
-    .catalog p {
-        color: rgb(255, 102, 0); /* Change color of other product details */
-    }
-    
-    .product img {
-        max-width: 100%;
-        height: auto;
-    }
 
-    .product {
-        width: 250px;
-        margin: 10px;
-        padding: 15px;
-        border: 1px solid #ccc;
-        text-align: center;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    }
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 30px;
+}
 
-        /* Footer Styles */
-    footer {
-        background-color: #333;
-        color: #fff;
-        padding: 20px 0;
-        text-align: center;
-    }
+/* Header Styles */
+header {
+    position: relative; /* Ensure positioning context for absolute positioning of taglines */
+    background-color: white;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
 
-   /* Updated styles for contact */
-.tel {
+/* Main Content Styles */
+.catalog {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 20px; /* Add padding to the top of the product section */
+}
+
+.catalog h3 {
+    color: #333; /* Change color of product title */
+}
+
+.catalog p {
+    color: rgb(255, 102, 0); /* Change color of other product details */
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product {
+    width: 250px;
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Contact Styles */
+.tel, .email {
     position: absolute;
-    top: 135px; /* Adjust top position */
-    left: 50%; /* Adjust left position */
-    transform: translateX(-50%);
     font-size: 18px; /* Adjust font size */
-}
-
-.tel a {
-    color: Black;
+    color: black;
     text-decoration: none;
-    margin-top: 30px;
-    margin-bottom:20px
+    margin-top: 30px; /* Adjust top margin */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%);
 }
 
-.tel a:hover {
+.tel a, .email a {
+    color: black;
+    text-decoration: none;
+}
+
+.tel a:hover, .email a:hover {
     text-decoration: underline;
 }
 
-
-   /* Updated styles for contact */
-.email {
-    position: absolute;
-    top: 150px; /* Adjust top position */
-    left: 50%; /* Adjust left position */
-    transform: translateX(-50%);
-    font-size: 18px; /* Adjust font size */
-}
-
-.email a {
-    color: Black;
-    text-decoration: none;
-    margin-top: 30px;
-    margin-bottom:10px;
-}
-
-.email a:hover {
-    text-decoration: underline;
-}
-    
-    /* Filter Buttons Styles */
+/* Filter Buttons Styles */
 .filter-buttons {
     background-color: white; /* Background color for filter container */
     padding: 15px; /* Padding for filter container */
@@ -129,32 +101,26 @@
     font-weight: bold; /* Make the text bold */
 }
 
-   
-    .filter-buttons:hover {
-        background-color: #1566e0; /* Darker background color on hover */
-    }
+.filter-buttons:hover {
+    background-color: #1566e0; /* Darker background color on hover */
+}
 
-    .order-form-container {
-        position: relative;
-        display: inline-block;
-    }
-    
-    .order-form-link {
-        display: inline-block;
-        background-color: #ff0000; /* Set the background color */
-        color: #fff; /* Set the text color */
-        padding: 10px 20px; /* Adjust padding as needed */
-        border-radius: 50%; /* Make it a circle */
-        animation: pulse 2s infinite; /* Add flashing animation */
-        margin-bottom: 5px; /* Add margin space between logo and contact*/
-    }
-    
-    @keyframes pulse {
-        0% { transform: scale(1); }
-        50% { transform: scale(1.1); }
-        100% { transform: scale(1); }
-    }
+.order-form-container {
+    position: relative;
+    display: inline-block;
+}
 
+.order-form-link {
+    display: inline-block;
+    background-color: #ff0000; /* Set the background color */
+    color: #fff; /* Set the text color */
+    padding: 10px 20px; /* Adjust padding as needed */
+    border-radius: 50%; /* Make it a circle */
+    animation: pulse 2s infinite; /* Add flashing animation */
+    margin-bottom: 5px; /* Add margin space between logo and contact*/
+}
+
+/* Logo Styles */
 .logo {
     position: relative; /* Ensure positioning context for absolute positioning of taglines */
 }
@@ -165,38 +131,33 @@
     margin: 0 auto; /* Center the logo horizontally */
 }
 
-/* Styles for Tagline 1 */
-.tagline1 {
+/* Tagline Styles */
+.tagline1, .tagline2 {
     position: absolute;
-    top: 10px; /* Align the tagline vertically in the middle */
-    left: 10px; /* Align the tagline horizontally in the middle */
-    transform: translate(-50%, -50%); /* Center the tagline both vertically and horizontally */
     color: darkorange; /* Change text color */
     font-size: 18px; /* Adjust font size */
     line-height: 1.5; /* Adjust line height for better readability */
     animation: pulse 2s infinite; /* Add flashing animation */
-    margin-left:20px;
 }
 
-/* Styles for Tagline 2 */
+.tagline1 {
+    top: 10px; /* Align the tagline vertically at the top */
+    left: 10px; /* Align the tagline horizontally at the left */
+}
+
 .tagline2 {
-    position: absolute;
-    top: 10px; /* Align the tagline 20px from the bottom */
-    right: 10px; /* Align the tagline horizontally in the middle */
-    transform: translateX(-50%); /* Center the tagline horizontally */
-    color: darkblue; /* Change text color */
-    font-size: 18px; /* Adjust font size */
-    line-height: 1.5; /* Adjust line height for better readability */
-    animation: pulse 2s infinite; /* Add flashing animation */
-    margin-right:20px;
+    top: 10px; /* Align the tagline vertically at the top */
+    right: 10px; /* Align the tagline horizontally at the right */
 }
 
- @keyframes pulse {
-        0% { transform: scale(1); }
-        50% { transform: scale(1.1); }
-        100% { transform: scale(1); }
-    }
+/* Pulse Animation */
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+}
 
+/* Responsive Styles */
 @media only screen and (max-width: 767px) {
     .logo img {
         width: 80%; /* Reduce the width of the image to 80% for phones */
