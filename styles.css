@@ -162,4 +162,11 @@ footer {
     .logo img {
         width: 70%; /* Reduce the width of the image to 80% for phones */
     }
+      .tagline1, .tagline2 {
+        font-size: 12px; /* Adjust the font size of taglines for phones */
+    }
+
+     .tel, .email {
+        font-size: 10px; /* Adjust the font size of taglines for phones */
+    }
 }
