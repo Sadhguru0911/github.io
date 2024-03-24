@@ -126,7 +126,7 @@ footer {
 }
 
 .logo img {
-    width: 100%; /* Reduce the width of the image to 12% */
+    width: 50%; /* Reduce the width of the image to 12% */
     display: block; /* Ensure the logo image behaves as a block element */
     margin: 0 auto; /* Center the logo horizontally */
 }
