@@ -33,18 +33,18 @@ header {
 
 .logo-comm {
     color: #1F4E79; /* Deep Blue color */
-    font-size: 36px; /* Adjust font size for the logo */
+    font-size: 75px; /* Adjust font size for the logo */
     font-weight: bold;
 }
 
 .logo-unite {
     color: #D4AF37; /* Gold color */
-    font-size: 36px; /* Adjust font size for the logo */
+    font-size: 75px; /* Adjust font size for the logo */
     font-weight: bold;
 }
 
 .tagline {
-    font-size: 16px; /* Adjust font size for the tagline */
+    font-size: 10px; /* Adjust font size for the tagline */
     color: #000;
     margin-top: 10px;
 }
