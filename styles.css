@@ -44,9 +44,10 @@ header {
 }
 
 .tagline {
-    font-size: 10px; /* Adjust font size for the tagline */
-    color: #000;
-    margin-top: 10px;
+    font-size: 12px; /* Adjust font size for the tagline */
+    font-weight: bold;
+    color: #696969;
+    margin-top: 5px;
 }
 
 /* Main Content Styles */
