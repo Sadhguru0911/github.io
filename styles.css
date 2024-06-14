@@ -28,7 +28,7 @@ header {
 /* Logo Styles */
 .logo {
     position: relative; /* Ensure positioning context for absolute positioning of taglines */
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 .logo-comm {
