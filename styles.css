@@ -21,7 +21,7 @@ body {
 header {
     position: relative; /* Ensure positioning context for absolute positioning of taglines */
     background-color: white; /* Added to ensure readability */
-    padding: 60px 0;
+    padding: 50px 0;
     text-align: center;
 }
 
@@ -188,7 +188,7 @@ footer {
 /* Responsive Styles */
 @media only screen and (max-width: 767px) {
     .logo-comm, .logo-unite {
-        font-size: 24px; /* Adjust font size for smaller screens */
+        font-size: 45px; /* Adjust font size for smaller screens */
     }
     .tagline {
         font-size: 12px; /* Adjust the font size of tagline for smaller screens */
