@@ -2,9 +2,13 @@
 
 /* Global Styles */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins', Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-image: url('https://raw.githubusercontent.com/username/my-website/main/assets/background.jpg'); /* Replace with your actual image URL */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .container {
@@ -20,6 +24,30 @@ header {
     color: white;
     padding: 60px 0;
     text-align: center;
+}
+
+/* Logo Styles */
+.logo {
+    position: relative; /* Ensure positioning context for absolute positioning of taglines */
+    margin-top: 10px;
+}
+
+.logo-comm {
+    color: #1F4E79; /* Deep Blue color */
+    font-size: 36px; /* Adjust font size for the logo */
+    font-weight: bold;
+}
+
+.logo-unite {
+    color: #D4AF37; /* Gold color */
+    font-size: 36px; /* Adjust font size for the logo */
+    font-weight: bold;
+}
+
+.tagline {
+    font-size: 16px; /* Adjust font size for the tagline */
+    color: #000;
+    margin-top: 10px;
 }
 
 /* Main Content Styles */
@@ -61,27 +89,24 @@ footer {
 }
 
 /* Contact Styles */
-.tel{
+.tel, .email {
     position: absolute;
     font-size: 18px; /* Adjust font size */
     color: black;
     text-decoration: none;
-    margin-top: 40px; /* Adjust top margin */
     left: 50%; /* Center horizontally */
     transform: translateX(-50%);
 }
 
-/* Contact Styles */
-.email {
-    position: absolute;
-    font-size: 18px; /* Adjust font size */
-    color: black;
-    text-decoration: none;
-    margin-top: 20px; /* Adjust top margin */
-    margin-bottom:30px;
-    left: 50%; /* Center horizontally */
-    transform: translateX(-50%);
+.tel {
+    margin-top: 40px; /* Adjust top margin */
 }
+
+.email {
+    margin-top: 20px; /* Adjust top margin */
+    margin-bottom: 30px;
+}
+
 .tel a, .email a {
     color: black;
     text-decoration: none;
@@ -128,19 +153,7 @@ footer {
     padding: 10px 20px; /* Adjust padding as needed */
     border-radius: 50%; /* Make it a circle */
     animation: pulse 2s infinite; /* Add flashing animation */
-    margin-bottom: 5px; /* Add margin space between logo and contact*/
-}
-
-/* Logo Styles */
-.logo {
-    position: relative; /* Ensure positioning context for absolute positioning of taglines */
-    margin-top:10px
-}
-
-.logo img {
-    width: 35%; /* Reduce the width of the image to 12% */
-    display: block; /* Ensure the logo image behaves as a block element */
-    margin: 0 auto; /* Center the logo horizontally */
+    margin-bottom: 5px; /* Add margin space between logo and contact */
 }
 
 /* Tagline Styles */
@@ -174,14 +187,16 @@ footer {
 
 /* Responsive Styles */
 @media only screen and (max-width: 767px) {
-    .logo img {
-        width: 70%; /* Reduce the width of the image to 80% for phones */
+    .logo-comm, .logo-unite {
+        font-size: 24px; /* Adjust font size for smaller screens */
     }
-      .tagline1, .tagline2 {
-        font-size: 10px; /* Adjust the font size of taglines for phones */
+    .tagline {
+        font-size: 12px; /* Adjust the font size of tagline for smaller screens */
     }
-
-     .tel, .email {
-        font-size: 10px; /* Adjust the font size of taglines for phones */
+    .tagline1, .tagline2 {
+        font-size: 10px; /* Adjust the font size of taglines for smaller screens */
+    }
+    .tel, .email {
+        font-size: 10px; /* Adjust the font size of contact information for smaller screens */
     }
 }
