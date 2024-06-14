@@ -28,18 +28,18 @@ header {
 /* Logo Styles */
 .logo {
     position: relative; /* Ensure positioning context for absolute positioning of taglines */
-    margin-top: 5px;
+    margin-top: 0px;
 }
 
 .logo-comm {
     color: #1F4E79; /* Deep Blue color */
-    font-size: 75px; /* Adjust font size for the logo */
+    font-size: 100px; /* Adjust font size for the logo */
     font-weight: bold;
 }
 
 .logo-unite {
     color: #D4AF37; /* Gold color */
-    font-size: 75px; /* Adjust font size for the logo */
+    font-size: 100px; /* Adjust font size for the logo */
     font-weight: bold;
 }
 
